@@ -33,7 +33,7 @@ end
 def update
   @task = Task.find(params[:id])
   if @task.update(params[:task]) 
-    render('tasks/success.html.erb')
+    render('tasks/updated.html.erb')
   else
     render('tasks/edit.html.erb')
   end

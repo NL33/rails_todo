@@ -28,6 +28,7 @@ $ bundle install
 *Migration
 
 	$ rails generate migration create_tasks
+	$ rails generate migration AddDoneToTask done:boolean
 
 *Testing
 
